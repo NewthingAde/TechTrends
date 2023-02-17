@@ -43,6 +43,11 @@ python3 app.py
 # Local run 
 <img width="1420" alt="docker-run-local" src="https://user-images.githubusercontent.com/80678596/219519608-3d1447ce-8247-440d-90f1-4d7802af9159.png">
 
+![docker-run-local1](https://user-images.githubusercontent.com/80678596/219720342-7f6fa6aa-28e4-43b4-8bf1-fa08c2467df4.png)
+
+![docker-run-local2](https://user-images.githubusercontent.com/80678596/219720540-2dec4f74-3d13-4497-b26d-05e20c1bba01.png)
+
+
 # Continuous Integration with GitHub Actions
 
 ### Github Action
@@ -50,3 +55,17 @@ python3 app.py
 
 ### Dockerhub 
 <img width="1440" alt="ci-dockerhub" src="https://user-images.githubusercontent.com/80678596/219665201-fad6d6ec-428e-46f3-a2e4-6d23970f19e9.png">
+
+# Kubernetes Manifest 
+
+<img width="1317" alt="kubernetes-declarative-manifests" src="https://user-images.githubusercontent.com/80678596/219720085-2a19d214-6d1f-4427-ad90-e96231b2fe6a.png">
+
+# Agrocd 
+### techtrend-prod
+![techtrends-prod](https://user-images.githubusercontent.com/80678596/219719248-673df36b-01a9-4995-900a-0b61c4bf91ee.png)
+
+### techtrend_staging
+![techtrends-staging](https://user-images.githubusercontent.com/80678596/219719611-9035820c-28b5-4123-b0eb-402e172469d3.png)
+
+
+

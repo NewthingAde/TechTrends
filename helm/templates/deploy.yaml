@@ -21,14 +21,14 @@ spec:
         imagePullPolicy: {{ .Values.image.pullPolicy }}
         name: techtrends
         ports:
-          - containerPort: {{ .Values.containerPort }}
-        livenessProbe:
-          httpGet:
-            path: /healthz
-            port: {{ .Values.containerPort }}
+        - containerPort: {{ .Values.containerPort }}
         readinessProbe:
           httpGet:
-            path: /healthz
-            port: {{ .Values.containerPort }}
+            path: {{ .Values.readinessProbe.path }}
+            port: {{ .Values.readinessProbe.port }}
+        livenessProbe:
+          httpGet:
+            path: {{ .Values.livenessProbe.path }}
+            port: {{ .Values.livenessProbe.port }}
         resources:
 {{ toYaml .Values.resources | indent 12}}

@@ -1,4 +1,4 @@
-import sqlite3, logging
+import sqlite3, logging, os,sys
 from flask import Flask, jsonify, json, render_template, request, url_for, redirect, flash
 from werkzeug.exceptions import abort
 
@@ -100,8 +100,25 @@ def status():
 
 # start the application on port 3111
 if __name__ == "__main__":
+    loglevel = os.getenv("LOGLEVEL", "DEBUG").upper()
+    loglevel = (
+        getattr(logging, loglevel)
+        if loglevel in ["CRITICAL", "DEBUG", "ERROR", "INFO", "WARNING", ]
+        else logging.DEBUG
+    )
 
-   #logging.basicConfig(filename='app.log',level=logging.DEBUG)
-   app.run(host='0.0.0.0', port='3111')
+    # Set logger to handle STDOUT and STDERR
+    stdout_handler = logging.StreamHandler(sys.stdout)
+    stderr_handler = logging.StreamHandler(sys.stderr)
+    handlers = [stderr_handler, stdout_handler]
 
+    # Create the log file and format each log
+    logging.basicConfig(
+        format='%(levelname)s:%(name)s:%(asctime)s, %(message)s',
+        level=loglevel,
+        datefmt='%m-%d-%Y, %H:%M:%S',
+        handlers=handlers
+    )
+
+    app.run(host='0.0.0.0', port='3111')
 

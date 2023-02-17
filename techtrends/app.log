@@ -27,3 +27,10 @@ WARNING:werkzeug: * Running on all addresses.
 INFO:werkzeug: * Running on http://192.168.0.17:3111/ (Press CTRL+C to quit)
 INFO:werkzeug:192.168.0.17 - - [17/Feb/2023 01:20:07] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:192.168.0.17 - - [17/Feb/2023 01:20:07] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+WARNING:werkzeug:02-17-2023, 22:05:28,  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug:02-17-2023, 22:05:28,  * Running on http://192.168.0.17:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:02-17-2023, 22:05:37, 192.168.0.17 - - [17/Feb/2023 22:05:37] "GET /healthz HTTP/1.1" 200 -
+INFO:werkzeug:02-17-2023, 22:05:45, 192.168.0.17 - - [17/Feb/2023 22:05:45] "GET /healthz HTTP/1.1" 200 -
+INFO:app:02-17-2023, 22:05:58, Metrics request successfull
+INFO:werkzeug:02-17-2023, 22:05:58, 192.168.0.17 - - [17/Feb/2023 22:05:58] "GET /metrics HTTP/1.1" 200 -

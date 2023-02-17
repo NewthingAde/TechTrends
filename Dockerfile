@@ -3,8 +3,8 @@ FROM python:3.8
 
 LABEL mainitainer="Oluwasegun Adesanya"
 
-COPY ./techtrends /app
-WORKDIR /app
+COPY . /techtrends
+WORKDIR /techtrends
 
 RUN pip install -r requirements.txt
 RUN python init_db.py

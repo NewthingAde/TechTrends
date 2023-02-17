@@ -44,9 +44,9 @@ python3 app.py
 <img width="1420" alt="docker-run-local" src="https://user-images.githubusercontent.com/80678596/219519608-3d1447ce-8247-440d-90f1-4d7802af9159.png">
 
 # Continuous Integration with GitHub Actions
-    # Github Action
-    <img width="1440" alt="ci-github-actions" src="https://user-images.githubusercontent.com/80678596/219664972-60866d79-9d98-4a70-8ace-80d63bb788f0.png">
 
-    # Dockerhub 
-    
-    <img width="1440" alt="ci-dockerhub" src="https://user-images.githubusercontent.com/80678596/219665201-fad6d6ec-428e-46f3-a2e4-6d23970f19e9.png">
+### Github Action
+<img width="1440" alt="ci-github-actions" src="https://user-images.githubusercontent.com/80678596/219664972-60866d79-9d98-4a70-8ace-80d63bb788f0.png">
+
+### Dockerhub 
+<img width="1440" alt="ci-dockerhub" src="https://user-images.githubusercontent.com/80678596/219665201-fad6d6ec-428e-46f3-a2e4-6d23970f19e9.png">

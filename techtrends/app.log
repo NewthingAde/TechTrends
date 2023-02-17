@@ -1,0 +1,29 @@
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.0.17:3111/ (Press CTRL+C to quit)
+INFO:app:Metrics request successfull
+INFO:werkzeug:192.168.0.17 - - [16/Feb/2023 23:28:56] "GET /metrics HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.0.17:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2023 00:34:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2023 00:34:25] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Feb/2023 00:34:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:app:Metrics request successfull
+INFO:werkzeug:192.168.0.17 - - [17/Feb/2023 00:34:26] "GET /metrics HTTP/1.1" 200 -
+INFO:app:Metrics request successfull
+INFO:werkzeug:192.168.0.17 - - [17/Feb/2023 00:34:31] "GET /metrics HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.0.17:3111/ (Press CTRL+C to quit)
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.0.17:3111/ (Press CTRL+C to quit)
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.0.17:3111/ (Press CTRL+C to quit)
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.0.17:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.0.17 - - [17/Feb/2023 01:20:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.17 - - [17/Feb/2023 01:20:07] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -

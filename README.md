@@ -67,5 +67,8 @@ python3 app.py
 ### techtrend_staging
 ![techtrends-staging](https://user-images.githubusercontent.com/80678596/219719611-9035820c-28b5-4123-b0eb-402e172469d3.png)
 
+### Agrocd Dashboard
+![over_all_agrocd](https://user-images.githubusercontent.com/80678596/219857219-bf5e759a-81c5-4ad1-ac09-eaf5be37c3a4.png)
+
 
 
